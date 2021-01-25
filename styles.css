@@ -228,3 +228,31 @@ hr {
     align-items: flex-start;
     text-align: center;
 }
+
+.footer-container ul li {
+    line-height: 2.3;
+}
+
+.footer {
+    background-color: #2f3640;
+    text-align: center;
+    color: #616161;
+    font-size: 12px;
+    padding: 20px 0;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .news-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards-banner-one .content,
+    .cards-banner-two .content {
+        width: 80%;
+    }
+
+    .footer-links .footer-container {
+        grid-template-columns: repeat(2,fr);
+    }
+}
